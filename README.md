@@ -62,16 +62,6 @@ java -jar build/libs/webappquiz-0.0.1-SNAPSHOT.jar
 
 ```
 server-main/
-├── datacontrol/                 # 관리자 웹 인터페이스
-│   ├── server/                  # PHP 백엔드
-│   │   ├── auth.php            # 인증 처리
-│   │   ├── get_ox_data.php     # OX 퀴즈 데이터 조회
-│   │   └── upload_csv.php      # CSV 업로드 처리
-│   ├── ui/                     # UI 컴포넌트
-│   ├── index.html              # 메인 로그인 페이지
-│   ├── lobby.html              # 관리자 대시보드
-│   └── composer.json           # PHP 의존성
-│
 └── webappquiz/                 # 메인 게임 서버
     ├── src/main/java/com/webappquiz/webappquiz/
     │   ├── component/          # 게임 컴포넌트
@@ -125,10 +115,6 @@ server-main/
 - Protocol Buffers를 통한 효율적인 데이터 직렬화
 - Redis를 통한 실시간 데이터 캐싱 및 동기화
 - MongoDB를 통한 NoSQL 데이터 저장
-
-## 🚦 배포
-
-프로젝트 루트에 `deploy.sh` 스크립트가 포함되어 있습니다. 배포 시 이 스크립트를 참고하여 환경에 맞게 수정하여 사용하십시오.
 
 ---
 
