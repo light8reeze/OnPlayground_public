@@ -23,7 +23,6 @@
 - Java 21 이상
 - PHP 7.4 이상
 - MongoDB
-- Redis
 - Composer (PHP 의존성 관리)
 - Gradle (Java 빌드 도구)
 
@@ -71,7 +70,6 @@ server-main/
 - 🏆 실시간 점수판 및 랭킹
 - 🔄 게임 채널 관리
 - 💾 MongoDB를 통한 데이터 영속화
-- ⚡ Redis를 통한 실시간 데이터 동기화
 
 ## 🛠 기술 스택
 
@@ -95,7 +93,6 @@ server-main/
 - Java 21의 최신 기능을 활용
 - Spring Boot 3.x의 비동기 처리 및 WebFlux 사용
 - Protocol Buffers를 통한 효율적인 데이터 직렬화
-- Redis를 통한 실시간 데이터 캐싱 및 동기화
 - MongoDB를 통한 NoSQL 데이터 저장
 
 ---
