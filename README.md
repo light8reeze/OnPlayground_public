@@ -6,16 +6,7 @@
 
 이 프로젝트는 두 개의 주요 컴포넌트로 구성되어 있습니다:
 
-### 1. DataControl (관리자 웹 인터페이스)
-- **위치**: `datacontrol/`
-- **기술 스택**: PHP, HTML, CSS, JavaScript, MongoDB
-- **기능**: 
-  - 관리자 인증 시스템
-  - 퀴즈 데이터 관리 (CSV 업로드 지원)
-  - OX 퀴즈 데이터 관리
-  - 웹 기반 관리자 대시보드
-
-### 2. WebAppQuiz (메인 서버)
+### 1. WebAppQuiz (메인 서버)
 - **위치**: `webappquiz/`
 - **기술 스택**: Java 21, Spring Boot 3.4.2, MongoDB, Redis, WebFlux
 - **기능**:
@@ -38,15 +29,7 @@
 
 ### 설치 및 실행
 
-#### 1. DataControl 설정
-```bash
-cd datacontrol
-composer install
-```
-
-웹 서버(Apache/Nginx)에서 `datacontrol/` 디렉토리를 문서 루트로 설정하고 접속합니다.
-
-#### 2. WebAppQuiz 서버 설정
+#### 1. WebAppQuiz 서버 설정
 ```bash
 cd webappquiz
 ./gradlew bootRun
@@ -94,7 +77,6 @@ server-main/
 
 ### 백엔드
 - **Java**: Spring Boot 3.4.2, WebFlux (Netty 기반)
-- **PHP**: 관리자 인터페이스
 - **데이터베이스**: MongoDB, Redis
 - **통신**: Protocol Buffers, WebSocket
 
