@@ -8,7 +8,7 @@
 
 ### 1. WebAppQuiz (메인 서버)
 - **위치**: `webappquiz/`
-- **기술 스택**: Java 21, Spring Boot 3.4.2, MongoDB, Redis, WebFlux
+- **기술 스택**: Java 21, Spring Boot 3.4.2, MongoDB, WebFlux
 - **기능**:
   - 실시간 퀴즈 게임 서버
   - WebSocket 기반 실시간 통신
@@ -75,7 +75,7 @@ server-main/
 
 ### 백엔드
 - **Java**: Spring Boot 3.4.2, WebFlux (Netty 기반)
-- **데이터베이스**: MongoDB, Redis
+- **데이터베이스**: MongoDB
 - **통신**: Protocol Buffers, WebSocket
 
 ### 프론트엔드
